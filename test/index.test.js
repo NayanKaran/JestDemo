@@ -1,4 +1,4 @@
-import getShowsInfo from "./index.js";
+import getShowsInfo from "../src/index.js";
 import getFileContent from './getfile.js';
 
 const jsonResponse = async () => {
