@@ -2,8 +2,8 @@ import path from 'path';
 import fs from 'fs';
 
 const getFileContent = (fileName) => {
-  const htmlPath = path.join(__dirname, fileName);
-  return fs.readFileSync(htmlPath);
+  const filePath = path.join(__dirname, fileName);
+  return fs.readFileSync(filePath);
 };
 
 export default getFileContent;
