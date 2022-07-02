@@ -17,11 +17,7 @@ global.fetch = async () => {
 
 describe("Testing index.js", () => {
     test("getShowsInfo function", async () => {
-        try {
             const data = await getShowsInfo();
             expect(data.length).toBeGreaterThan(0)
-        } catch (error) {
-            console.log(error)
-        }
       });
 });
